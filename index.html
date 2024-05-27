@@ -4,24 +4,24 @@
     <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Home</title>
+      <title>Adopt-A-Dog</title>
       <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
     </head>
     <body>
+      <a class="sr-only" href="#main-content" tabindex="1">Skip to main content</a>
       <header>
-        <div class="header-logo-checkout-overlay">
-          <div class="header-logo-wrapper">
-            <img src="images/adoptadog-logo.svg" alt="adopt-a-dog logo">
-            <h1 class="header-logo-heading">Seattle’s premiere dog adoption agency</h1>
-          </div>
-          <div class="header-checkout-wrapper">
-            <img class="header-checkout-icon" src="images/cart-icon.svg" alt="checkout cart icon">
-            <p class="header-checkout-cart">$<span class="cart-value">0</span></p>
-            <a href="checkout.html" class="header-checkout-link">Checkout</a>
-          </div>
+      <div class="banner-img">
+        <div class="banner-text-container">
+          <img src="images/adoptadog-logo.svg" alt="adoptadog logo" height="150">
+          <p>Seattle Premiere dog adoption agency</p>
         </div>
-
-        <nav class="header-nav">
+        <div class="header-checkout-wrapper">
+          <img class="header-checkout-icon" src="images/cart-icon.svg" alt="checkout cart icon">
+          <p class="header-checkout-cart">$<span class="cart-value">0</span></p>
+          <a href="checkout.html" class="header-checkout-link">Checkout</a>
+        </div>
+      </div>
+      <nav class="header-nav">
           <a href="index.html">Home</a>
           <span>/</span>
           <a href="dogs.html">Dogs</a>
@@ -32,14 +32,18 @@
 
     <main>
       <div class="homepage-grid">
-        <section id="homepage-section-top" class="homepage-grid-top">
+        <section id="homepage-section-top" class="homepage-section-top">
           <div class="homepage-hero">
-            <img src ="images/eric-ward-610868-unsplash.jpg" alt="man and dog">
-              <h2>Adopt A Dog</h2>
-              <p>Adopt a dog is a website you can use to find dogs for adoption.</p>
+            <img src ="images/home-intro.jpg" alt="man hugging a smiling dog">
           </div>
+            <div class="homepage-intro">
+              <h2>Adopt A Dog</h2>
+              <br>Adopt a dog is a website you can use to find dogs for adoption.
+            </div>
+        </section>
+        <section id="homepage-section-grid" class="homepage-section-grid">
           <div class="dog-card-display">
-            <article class="dog-card"><img class="dog-card-image" src="images/alex-lacayo-756508-unsplash.jpg" alt="dog">
+            <article class="dog-card"><img class="dog-card-image" src="images/murphy-card.jpg" alt="dog">
               <h2 class="dog-card-heading">Murphy</h2><p class="dog-card-price-description">
                 <span class="dog-card-bold">Cost to Adopt:</span>
                 $<span class="price-value">123.45</span></p>
@@ -47,7 +51,7 @@
                 <a class="dog-card-adopt-link">Adopt</a>
             </article>
 
-            <article class="dog-card"><img class="dog-card-image" src="images/nikolay-tchaouchev-785309-unsplash.jpg" alt="dog">
+            <article class="dog-card"><img class="dog-card-image" src="images/poppy-card.jpg" alt="dog">
               <h2 class="dog-card-heading">Poppy</h2><p class="dog-card-price-description">
                 <span class="dog-card-bold">Cost to Adopt:</span>
                 $<span class="price-value">123.45</span></p>
@@ -55,7 +59,7 @@
                 <a class="dog-card-adopt-link">Adopt</a>
             </article>
 
-            <article class="dog-card"><img class="dog-card-image" src="images/marcus-wallis-471438-unsplash.jpg" alt="dog">
+            <article class="dog-card"><img class="dog-card-image" src="images/jack-card.jpg" alt="dog">
               <h2 class="dog-card-heading">Jack</h2><p class="dog-card-price-description">
                 <span class="dog-card-bold">Cost to Adopt:</span>
                 $<span class="price-value">123.45</span></p>
@@ -63,7 +67,7 @@
                 <a class="dog-card-adopt-link">Adopt</a>
             </article>
 
-            <article class="dog-card"><img class="dog-card-image" src="images/duffy-brook-350225-unsplash.jpg" alt="dog">
+            <article class="dog-card"><img class="dog-card-image" src="images/duffy-crad.jpg" alt="dog">
               <h2 class="dog-card-heading">Duffy</h2><p class="dog-card-price-description">
                 <span class="dog-card-bold">Cost to Adopt:</span>
                 $<span class="price-value">123.45</span></p>
@@ -71,7 +75,7 @@
                 <a class="dog-card-adopt-link">Adopt</a>
             </article>
 
-            <article class="dog-card"><img class="dog-card-image" src="images/tucker-good-589776-unsplash.jpg" alt="dog">
+            <article class="dog-card"><img class="dog-card-image" src="images/lucas-card.jpg" alt="dog">
               <h2 class="dog-card-heading">Lucas</h2><p class="dog-card-price-description">
                 <span class="dog-card-bold">Cost to Adopt:</span>
                 $<span class="price-value">123.45</span></p>
@@ -79,7 +83,7 @@
                 <a class="dog-card-adopt-link">Adopt</a>
             </article>
 
-            <article class="dog-card"><img class="dog-card-image" src="images/mitchell-orr-237216-unsplash.jpg" alt="dog">
+            <article class="dog-card"><img class="dog-card-image" src="images/jake-card.jpg" alt="dog">
               <h2 class="dog-card-heading">Jake</h2><p class="dog-card-price-description">
                 <span class="dog-card-bold">Cost to Adopt:</span>
                 $<span class="price-value">123.45</span></p>
@@ -87,7 +91,7 @@
                 <a class="dog-card-adopt-link">Adopt</a>
             </article>
 
-            <article class="dog-card"><img class="dog-card-image" src="angus.jpg" alt="dog">
+            <article class="dog-card"><img class="dog-card-image" src="images/angus-card.jpg" alt="dog">
               <h2 class="dog-card-heading">Angus</h2><p class="dog-card-price-description">
                 <span class="dog-card-bold">Cost to Adopt:</span>
                 $<span class="price-value">123.45</span></p>
@@ -95,7 +99,7 @@
                 <a class="dog-card-adopt-link">Adopt</a>
             </article>
 
-            <article class="dog-card"><img class="dog-card-image" src="violet.jpg" alt="dog">
+            <article class="dog-card"><img class="dog-card-image" src="images/violet-card.jpg" alt="dog" width="476" height="284">
               <h2 class="dog-card-heading">Violet</h2><p class="dog-card-price-description">
                 <span class="dog-card-bold">Cost to Adopt:</span>
                 $<span class="price-value">123.45</span></p>
