@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Adopt-A-Dog</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+  </head>
+  <body>
+  <a class="sr-only" href="#main-content" tabindex="1">Skip to main content</a>
+    <header>
+      <div class="banner-img">
+        <div class="banner-text-container">
+        <img src="images/adoptadog-logo.svg" alt="adoptadog logo" height="150">
+        <p>Seattle Premiere dog adoption agency</p>
+        </div>
+        <div class="header-checkout-wrapper">
+          <img class="header-checkout-icon" src="images/cart-icon.svg" alt="checkout cart icon">
+          <p class="header-checkout-cart">$<span class="cart-value">0</span></p>
+          <a href="checkout.html" class="header-checkout-link">Checkout</a>
+        </div>
+      </div>
+      <nav class="header-nav">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <a href="dogs.html">Dogs</a>
+        <span>/</span>
+        <a href="blog.html">Blog</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Pet Adoption Application</h1>
+   <form method="GET">
+     <label>Your name:
+       <input type="text" name="applicantName" required>
+     </label>
+<br>
+     <label>Your email:
+       <input type="email" name="applicantEmail">
+     </label>
+<br>
+     <label for="city">What city are you in?</label>
+       <input id="city" type="text" name="applicantCity">
+<br>
+     <label>How many pets do you have in your home now?
+       <input type="number" name="petCount">
+     </label>
+<br>
+     <label>Why do you want to adopt a new pet?
+       <textarea name="applicantReason" rows="4" cols="50"></textarea>
+     </label>
+
+     <fieldset class="checkbox">
+       <legend>What types of dogs are you interested in?</legend>
+     <label>
+       <input type="checkbox" name="type" value="big">Big
+       <span class="checkmark"></span>
+     </label>
+     <label>
+       <input type="checkbox" name="type" value="medium">Medium
+       <span class="checkmark"></span>
+     </label>
+     <label>
+       <input type="checkbox" name="type" value="small">Small
+       <span class="checkmark"></span>
+     </label>
+   </fieldset>
+
+   <fieldset>
+     <legend>Are you interested in adopting special needs or elderly pets?</legend>
+
+     <label>
+       <input type="radio" name="special" value="yes">Yes
+     </label>
+     <label>
+       <input type="radio" name="special" value="no">No
+     </label>
+   </fieldset>
+
+     <label>How many hours a day is someone usually home to keep a pet company?
+       <select name="hours">
+         <option value="">Please select</option>
+         <option value="few">less than 10</option>
+         <option value="some">10 to 16</option>
+         <option value="many">more than 16</option>
+       </select>
+     </label>
+
+     <label>To create account, enter a password
+       <input type="password" name="accountPW">
+     </label>
+       <input type="submit" value="Apply Now!">
+   </form>
+    </main>
+    <footer>
+      <div class="footer-content-container">
+        <img src="images/adoptadog-logo.svg" alt="Adopt-A-Dog logo">
+        <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+        <nav class="footer-nav">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <a href="dogs.html">Dogs</a>
+          <span>/</span>
+        <a href="blog.html">Contact</a>
+        </nav>
+        <small>© 2024 Adoptadog, LLC | Seattle, WA</small>
+      </div>
+    </footer>
+  </body>
+</html>
