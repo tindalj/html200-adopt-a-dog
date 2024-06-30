@@ -1,85 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Blog</title>
-      <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
-    </head>
-    <body>
-      <header>
-      <div class="banner-img">
-        <div class="banner-text-container">
-          <img src="images/adoptadog-logo.svg" alt="adoptadog logo" height="150">
-          <p>Seattle Premiere dog adoption agency</p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+</head>
+<body>
+    <header>
+        <div class="banner-img">
+            <div class="banner-text-container">
+                <img src="images/adoptadog-logo.svg" alt="adoptadog logo" height="150">
+                <p>Seattle Premiere dog adoption agency</p>
+            </div>
+            <div class="header-checkout-wrapper">
+                <a href="checkout.html" class="header-checkout-link">
+                    <img class="header-checkout-icon" src="images/cart-icon.svg" alt="checkout cart icon">
+                    <span class="header-checkout-cart">$<span class="cart-value">0</span></span>
+                    Checkout
+                </a>
+            </div>
         </div>
-        <div class="header-checkout-wrapper">
-          <img class="header-checkout-icon" src="images/cart-icon.svg" alt="checkout cart icon">
-          <p class="header-checkout-cart">$<span class="cart-value">0</span></p>
-          <a href="checkout.html" class="header-checkout-link">Checkout</a>
-        </div>
-      </div>
-      <nav class="header-nav">
-          <a href="index.html">Home</a>
-          <span>/</span>
-          <a href="dogs.html">Dogs</a>
-          <span>/</span>
-          <a href="blog.html">Blog</a>
+        <nav class="header-nav">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <a href="dogs.html">Dogs</a>
+            <span>/</span>
+            <a href="blog.html">Blog</a>
         </nav>
     </header>
 
-  <main>
-    <div class="blog-grid">
-      <section>
-        <h2>Adoption Blog</h2>
-        <div class="blog-boxes-display">
-          <article class="blog-box">
-            <img src="images/blog-1.jpg" alt="woman sitting with dog.">
-            <div class="blog-text">
-            <h4>Traveling With Your Dog <br>
-            <small>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut. Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut.
-            Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut. Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut,</small>
-            </h4>
-            </div>
-          </article>
+    <main>
+        <div class="blog-grid">
+            <section>
+                <h2>Adoption Blog</h2>
+                <div class="blog-boxes-display" id="blog-posts">
+                    <!-- Existing blog posts -->
+                    <article class="blog-box">
+                        <img src="images/blog-1.jpg" alt="woman sitting with dog.">
+                        <div class="blog-text">
+                            <h4>Traveling With Your Dog<br>
+                                <small>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut...</small>
+                            </h4>
+                        </div>
+                    </article>
 
-          <article class="blog-box">
-            <img src="images/blog-2.jpg" alt="<multiple dogs on a leash.">
-            <div class="blog-text">
-            <h4>How To Walk Multiple Dogs <br>
-            <small>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut. Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut.
-            Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut. Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut,</small>
-            </h4>
-          </div>
-          </article>
+                    <article class="blog-box">
+                        <img src="images/blog-2.jpg" alt="multiple dogs on a leash.">
+                        <div class="blog-text">
+                            <h4>How To Walk Multiple Dogs<br>
+                                <small>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut...</small>
+                            </h4>
+                        </div>
+                    </article>
 
-          <article class="blog-box">
-            <img src="images/blog-3.jpg" alt="silhouette of woman holding small ball and dog looking up at it from the ground.">
-            <div class="blog-text">
-            <h4>Teach Your Dog To Fetch! <br>
-            <small>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut. Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut.
-            Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut. Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut,</small>
-            </h4>
-          </div>
-          </article>
+                    <article class="blog-box">
+                        <img src="images/blog-3.jpg" alt="silhouette of woman holding small ball and dog looking up at it from the ground.">
+                        <div class="blog-text">
+                            <h4>Teach Your Dog To Fetch!<br>
+                                <small>Iciustiam, et ad quiaes cum que excea sinciendi qui offic temquas doluptios dolupta tiandebis nem ut...</small>
+                            </h4>
+                        </div>
+                    </article>
+                </div>
+            </section>
         </div>
-      </section>
-    </div>
-  </main>
 
-  <footer>
-    <div class="footer-content-container">
-      <img src="images/adoptadog-logo.svg" alt="Adopt-A-Dog logo">
-      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
-      <nav class="footer-nav">
-        <a href="index.html">Home</a>
-        <span>/</span>
-        <a href="dogs.html">Dogs</a>
-        <span>/</span>
-      <a href="blog.html">Contact</a>
-      </nav>
-      <small>© 2024 Adoptadog, LLC | Seattle, WA</small>
-    </div>
-  </footer>
+        <section>
+            <h2>Add a New Blog Post</h2>
+            <div id="form-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content-container">
+            <img src="images/adoptadog-logo.svg" alt="Adopt-A-Dog logo">
+            <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+            <nav class="footer-nav">
+                <a href="index.html">Home</a>
+                <span>/</span>
+                <a href="dogs.html">Dogs</a>
+                <span>/</span>
+                <a href="blog.html">Contact</a>
+            </nav>
+            <small>© 2024 Adoptadog, LLC | Seattle, WA</small>
+        </div>
+    </footer>
+
+    <script>
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const formContainer = document.getElementById('form-container');
+
+        // Create form dynamically
+        const form = document.createElement('form');
+        form.id = 'blog-form';
+
+        // Headline input
+        const headlineLabel = document.createElement('label');
+        headlineLabel.setAttribute('for', 'headline');
+        headlineLabel.textContent = 'Headline:';
+
+        const headlineInput = document.createElement('input');
+        headlineInput.type = 'text';
+        headlineInput.id = 'headline';
+        headlineInput.placeholder = 'Enter headline here';
+        headlineInput.required = true;
+        headlineInput.style.width = '300px'; // smaller text box for headline
+
+        // Image URL input
+        const imageUrlLabel = document.createElement('label');
+        imageUrlLabel.setAttribute('for', 'image-url');
+        imageUrlLabel.textContent = 'Image URL:';
+
+        const imageUrlInput = document.createElement('input');
+        imageUrlInput.type = 'url';
+        imageUrlInput.id = 'image-url';
+        imageUrlInput.placeholder = 'Enter image URL here';
+        imageUrlInput.required = true;
+        imageUrlInput.style.width = '300px'; // smaller text box for image URL
+
+        // Blog text input
+        const blogTextLabel = document.createElement('label');
+        blogTextLabel.setAttribute('for', 'blog-text');
+        blogTextLabel.textContent = 'Blog Post:';
+
+        const blogTextInput = document.createElement('textarea');
+        blogTextInput.id = 'blog-text';
+        blogTextInput.placeholder = 'Enter blog content here';
+        blogTextInput.required = true;
+        blogTextInput.style.width = '100%'; // bigger text box for blog content
+        blogTextInput.style.height = '200px'; // set the height for blog content
+
+        // Submit button
+        const submitButton = document.createElement('button');
+        submitButton.type = 'submit';
+        submitButton.textContent = 'Submit';
+
+        // Adding elements to the form
+        form.appendChild(headlineLabel);
+        form.appendChild(headlineInput);
+        form.appendChild(imageUrlLabel);
+        form.appendChild(imageUrlInput);
+        form.appendChild(document.createElement('br')); // line break
+        form.appendChild(blogTextLabel);
+        form.appendChild(blogTextInput);
+        form.appendChild(submitButton);
+
+        formContainer.appendChild(form);
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const headline = document.getElementById('headline').value;
+            const imageUrl = document.getElementById('image-url').value;
+            const blogText = document.getElementById('blog-text').value;
+
+            console.log({
+                headline,
+                imageUrl,
+                blogText
+            });
+
+            alert("Thank you. The form information has been received.");
+
+            addBlogPost({ headline, imageUrl, blogText });
+
+            form.reset();
+        });
+
+        const blogPostsContainer = document.getElementById('blog-posts');
+
+        function addBlogPost(blogPost) {
+            const postElement = document.createElement('article');
+            postElement.className = 'blog-box';
+            postElement.innerHTML = `
+                <img src="${blogPost.imageUrl}" alt="Blog Image">
+                <div class="blog-text">
+                    <h4>${blogPost.headline}<br>
+                        <small>${blogPost.blogText}</small>
+                    </h4>
+                </div>
+            `;
+            blogPostsContainer.appendChild(postElement);
+        }
+    });
+
+
+    </script>
 </body>
 </html>
